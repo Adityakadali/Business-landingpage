@@ -195,7 +195,7 @@ nav li {
 }
 
 .achivements {
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .achivement {
@@ -203,4 +203,23 @@ nav li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.target-customer-img {
+  background-image: url("./images/target\ customers.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[alt="play-btn"] {
+  color: var(--cl-green);
+  background-color: var(--cl-primary-bg);
+  padding: 1em;
+  border-radius: 50%;
 }
