@@ -165,12 +165,13 @@ nav li {
 
 [alt="mail-icon"] {
   height: 30px;
+  margin: 0 10px;
 }
 
 .email-group {
   display: flex;
   justify-content: start;
-  padding: 1em 1em;
+  padding: 0.5em 0.5em;
   align-items: center;
   max-width: 500px;
   gap: 0.5em;
@@ -237,7 +238,7 @@ nav li {
 
 .intro-card {
   display: grid;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 2em;
   grid-template-columns: 1fr 1fr;
@@ -271,4 +272,86 @@ nav li {
 
 #image-3 {
   background-image: url("./images/intro-3.jpg");
+}
+
+/* best employee section */
+
+.best-employees .emp-text-container {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.best-emp-title {
+  width: 400px;
+}
+
+.best-emp-subtitle {
+  width: 600px;
+}
+
+.emp-cards {
+  justify-content: space-between;
+}
+
+.emp-card {
+  width: 350px;
+}
+
+.emp-photo {
+  width: 350px;
+  height: 400px;
+  background-color: var(--cl-dark-gray);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#photo-1 {
+  background-image: url("./images/photo-1.jpg");
+}
+
+#photo-2 {
+  background-image: url("./images/photo-2.jpg");
+}
+
+#photo-3 {
+  background-image: url("./images/photo-3.jpg");
+}
+
+footer {
+  background-color: var(--cl-black);
+  color: var(--cl-primary-bg);
+}
+
+.footer-logo {
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--cl-primary-bg);
+}
+
+footer [alt="brand-logo"] {
+  height: 40px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 10px;
+  height: 40px;
+}
+.socials img {
+  height: 30px;
+}
+
+.footer-cards {
+  justify-content: space-between;
+}
+
+.footer-card h2 {
+  font-size: 1.2em;
+}
+
+.footer-card li {
+  list-style: none;
 }
