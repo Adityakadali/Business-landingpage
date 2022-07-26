@@ -21,5 +21,5 @@ Made by **Aditya Kadali**
 
 ## Links:
 
-- [Live demo]()
-- [Source code]()
+- [Live demo](https://business2b-landing.netlify.app/)
+- [Source code](https://github.com/Adityakadali/Business-landingpage)
