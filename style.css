@@ -9,6 +9,7 @@
 }
 
 :root {
+  --fs-xlg: 3.5em;
   --fs-lg: 2em;
   --fs-md: 1em;
   --fs-sm: 0.8em;
@@ -21,4 +22,156 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: var(--cl-primary-bg);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2em;
+}
+
+/* utility classes */
+
+.fs-xlg {
+  font-size: var(--fs-xlg);
+}
+
+.fs-lg {
+  font-size: var(--fs-lg);
+}
+
+.fs-md {
+  font-size: var(--fs-md);
+}
+
+.fs-sm {
+  font-size: var(--fs-sm);
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.flex {
+  display: flex;
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+.mb-1 {
+  margin-bottom: 10px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.primary-button {
+  border: none;
+  background-color: var(--cl-green);
+  color: var(--cl-primary-bg);
+  padding: 1em 2em;
+}
+
+.container {
+  padding: 60px;
+}
+
+/* header section */
+header {
+  background-color: var(--cl-dark-gray);
+  color: var(--cl-primary-bg);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+
+nav [alt="brand-logo"] {
+  height: 40px;
+}
+
+nav li {
+  display: inline-block;
+  font-size: var(--fs-md);
+  margin: 20px;
+  list-style: none;
+  font-weight: 600;
+}
+
+.nav-button {
+  cursor: pointer;
+  padding: 0.5em 2.5em;
+  border: 1px solid var(--cl-primary-bg);
+  color: var(--cl-primary-bg);
+  font-size: var(--fs-md);
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.hero-section {
+  gap: 3em;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image {
+  background-image: url("./images/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5em;
+  background-color: var(--cl-green);
+  height: 500px;
+  width: 400px;
+}
+
+.hero-text {
+  max-width: 600px;
+  flex-direction: column;
+}
+
+[alt="mail-icon"] {
+  height: 30px;
+}
+
+.email-group {
+  display: flex;
+  justify-content: start;
+  padding: 1em 1em;
+  align-items: center;
+  max-width: 500px;
+  gap: 0.5em;
+  background-color: var(--cl-primary-bg);
+}
+
+.email-group input {
+    width: 100%;
+    height: 40px;
+    padding: 1em;
+    border: none;
+    font-size: var(--fs-md);
+}
+
+.email-group button {
+    width: 200px;
+    font-size: var(--fs-md);
+    font-weight: 600;
 }
