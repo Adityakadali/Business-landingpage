@@ -19,6 +19,10 @@ Made by **Aditya Kadali**
 - I had lot of fun designing this site. I wrote custom utility classes and adopted cube css methodology in this project.
 - I learned to write CSS efectively by reusing classes.
 
+## Time taken:
+
+- This project took me around 4 hours to build from scratch.
+
 ## Links:
 
 - [Live demo](https://business2b-landing.netlify.app/)
